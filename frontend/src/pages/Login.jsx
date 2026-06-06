@@ -68,10 +68,29 @@ export default function Login() {
           </button>
         </form>
 
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg text-xs text-gray-500 space-y-1">
-          <p className="font-semibold text-gray-600">Credenciais de teste:</p>
-          <p>Admin: <span className="font-mono">admin@example.com</span> / <span className="font-mono">password</span></p>
-          <p>Usuário: <span className="font-mono">user@example.com</span> / <span className="font-mono">password</span></p>
+        <div className="mt-6 p-4 bg-gray-50 rounded-lg text-xs text-gray-500">
+          <p className="font-semibold text-gray-600 mb-2">Credenciais de teste:</p>
+          <table className="w-full">
+            <thead>
+              <tr className="text-gray-400">
+                <th className="text-left pb-1">Perfil</th>
+                <th className="text-left pb-1">E-mail</th>
+                <th className="text-left pb-1">Senha</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="pr-3 text-yellow-700 font-semibold">Admin</td>
+                <td className="font-mono pr-3">admin@example.com</td>
+                <td className="font-mono">password</td>
+              </tr>
+              <tr>
+                <td className="pr-3 text-blue-700 font-semibold">Usuário</td>
+                <td className="font-mono pr-3">user@example.com</td>
+                <td className="font-mono">password</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
