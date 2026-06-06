@@ -1,0 +1,12 @@
+# Trabalho Avaliativo - Backend Laravel
+
+Este projeto implementa um CRUD de Categorias utilizando Laravel, Docker e MySQL.
+
+## Requisitos
+- Docker e Docker Compose instalados.
+
+## Como Rodar o Projeto
+
+1. **Subir o ambiente Docker:**
+   ```bash
+   ./vendor/bin/sail up -d
